@@ -9,9 +9,15 @@ d_sort = []
 for i in range(1, n+1):
     x = input.readline().strip()
     # print(x)
+
     if x.startswith('Insert'):
+
+
         num = int(x.split()[1])
+
+
         # print(num)
+
         heapq.heappush(d_sort, -num)
         # heapq._heapify_max(d_sort)
     elif x.startswith('ExtractMax'):

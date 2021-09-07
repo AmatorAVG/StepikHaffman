@@ -1,9 +1,2 @@
-8
-Insert 200
-Insert 10
-Insert 5
-Insert 500
-ExtractMax
-ExtractMax
-ExtractMax
-ExtractMax
+5 1 5 8 12 13
+5 8 1 23 1 11
